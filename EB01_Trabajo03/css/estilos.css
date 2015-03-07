@@ -1,0 +1,76 @@
+body{
+	cursor: row-resize;
+	background-image:url('../img/B.gif'), url('../img/TL3.jpg');
+	/*Posición de la primra imagen, de la segunda imagen */
+	background-position: center center, center center;	
+	background-repeat: repeat, no-repeat;
+	color: white;
+}
+.menu{
+	margin: 40px auto;
+	text-align: center;
+	width: 100%;
+}
+.menu li
+{
+	display: inline-block;
+	line-height: 35px; /*Superior*/
+	list-style: none; /*Decoración */
+	margin: 0 5px;
+}
+.menu li a
+{
+
+	background-image: -webkit-linear-gradient(
+	 	top,
+		rgba(255,255,255,.5) 0%,
+		rgba(0,0,0,.1) 100%
+	);
+	border: 1px solid gray;
+	border-radius: 50px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.65);
+	color: #f4f4f4; /*Internet Explorer*/
+	color: rgba(255,255,255, 0.8);
+	font: bold 18px "Myriad Pro", "Lucida Grande", Helvetica, Arial, sans-serif;
+	padding: 5px 15px;
+	text-decoration: none;
+	text-shadow: 3px 3px 10px rgba(0,0,0,0.4); 
+}
+
+header{
+	background: black;
+	border: 4px solid gray;
+	border-radius: 10px 10px 30px 30px;
+	box-shadow: inset 20px 0px 40px blue, 10px 10px 20px #d9b121; /*x, y, alfa*/
+	color: white;
+	margin: 15px auto;
+	padding: 20px; 
+	text-align: center;
+	text-shadow: 2px 3px 5px red;
+	width: 600px;	
+	
+}
+#contenido, footer
+{
+	padding: 10px;
+	margin: 0 auto;
+	width: 400px;
+}
+.red{ background: #b80202;}
+.red:hover{ background: #e40606;}
+.green{ background: #46c431;}
+.green:hover{ background: #44e329;}
+.yellow{ background: #d9ce1c;}
+.yellow:hover{ background: #eee117;}
+.cyan{ background: #23c6de;}
+.cyan:hover{ background: #18d8f4;}
+.blue{ background: #3271d9;}
+.blue:hover{ background: #377ef2;}
+aside 
+{
+	border-top: 10px solid #CCCC99;
+	font-size: 25px;
+	color: blue;
+	position: relative;
+	background-color: #CFCFCF;
+}
